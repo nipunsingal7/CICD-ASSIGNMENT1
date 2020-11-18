@@ -3,4 +3,15 @@
   <groupId>Devops</groupId>
   <artifactId>CICDass2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  
+  <distributionManagement>
+<snapshotRepository>
+<id>nexus-cicd</id>
+<name>cicd-lab10</name>
+<url>http://localhost:8081/repository/CICD-ASSIGN2/</url>
+</snapshotRepository>
+</distributionManagement>
+  
+  
 </project>
